@@ -188,7 +188,7 @@ class JmthonClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         link = "[هنا](t.me/gibthon9)"
-                        text = "**تقرير خطأ سورس أكثون**\n\n" + "اذا اردت يمكنك التبليغ"
+                        text = "**تقرير خطأ سورس جبثون**\n\n" + "اذا اردت يمكنك التبليغ"
                         text += f"- فقط وجه هذه الرسالة الى {link}.\n"
                         text += "لم يتم تسجيل اي بيانات خاصه ومهمة\n\n"
                         text += f"**تقرير الخطأ : ** [{new['error']}]({pastelink})"
@@ -303,7 +303,7 @@ class JmthonClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         link = "[هنا](t.me/gibthon9)"
-                        text = "**تقرير خطأ أكثون**\n\n" + "يمكنك التبليغ عنه"
+                        text = "**تقرير خطأ جبثون**\n\n" + "يمكنك التبليغ عنه"
                         text += f"- حول هذه الرسالة الى هنا{link}.\n"
                         text += "لم يتم تسجيل اي بيانات خاصة فقط المشكلة\n\n"
                         text += f"**تقرير الخطأ : ** [{new['error']}]({pastelink})"
