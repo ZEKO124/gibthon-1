@@ -53,7 +53,7 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"**▾∮ مرحبا عزيزي {mention}**\n**▾اليكَ قائمة بازرار مضمنة لاوامر ↫**⍣ⵧⵧⵧⵧⵧᴊᴍᴛʜᴏɴⵧⵧⵧⵧⵧ⍣**\n[𝘼𝙆𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](t.me/VV744)\n\n"
+    text = f"**▾∮ مرحبا عزيزي {mention}**\n**▾اليكَ قائمة بازرار مضمنة لاوامر ↫**⍣ⵧⵧⵧⵧⵧᴊᴍᴛʜᴏɴⵧⵧⵧⵧⵧ⍣**\n[gibthon userbot 🧸♥](t.me/gibthon7)\n\n"
     buttons = [
         (Button.inline("معلومات الملفات 🗂", data="check"),),
         (
@@ -228,7 +228,7 @@ async def inline_handler(event):
             buttons = [
                 (
                     Button.inline("Stats", data="stats"),
-                    Button.url("DEV", "https://t.me/JMTHON"),
+                    Button.url("DEV", "https://t.me/gibthon7"),
                 )
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -421,7 +421,7 @@ async def inline_handler(event):
             _result = main_menu()
             result = builder.article(
                 title="jmub Help™",
-                description="**▾∮ قائمة التعليمات الخاصة ب أكثون **",
+                description="**▾∮ قائمة التعليمات الخاصة ب جبثون **",
                 text=_result[0],
                 buttons=_result[1],
                 link_preview=False,
@@ -557,10 +557,10 @@ async def inline_handler(event):
     else:
         buttons = [
             (
-                Button.url("قناة السورس", "t.me/VV744"),
+                Button.url("قناة السورس", "t.me/gibthon7"),
                 Button.url(
                     "المطور",
-                    "t.me/MIMIM5",
+                    "t.me/zeko124",
                 ),
             )
         ]
@@ -574,9 +574,9 @@ async def inline_handler(event):
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="[𝘼𝙆𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](t.me/VV744)",
+            title="[gibthon userbot 🧸♥](t.me/gibthon7)",
             description="لتنصيبه لك",
-            url="t.me/VV744",
+            url="t.me/gibthon7",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
