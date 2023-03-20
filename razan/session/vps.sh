@@ -3,8 +3,8 @@
 JMTHON="\nJMTHON USERBOT DEPLOY ON VPS"
 JMTHON+="\n "
 JMTHON+="\n "
-JMTHON+="\n★ Channel: @VV744 ★"
-JMTHON+="\n★ Support: @AkTSupport ★"
+JMTHON+="\n★ Channel: @gibthon7 ★"
+JMTHON+="\n★ Support: @gibthon9 ★"
 JMTHON+="\n "
 ROZ="\n "
 echo -e $JMTHON
