@@ -118,7 +118,7 @@ class JmthonClient(TelegramClient):
                         and not (check.sender_id in DEVS)
                     ):
                         await check.client.send_message(
-                            "@VV744", "اهلا محمد استخدامي ما يناسب أكثون"
+                            "@gibthon7", "اهلا زيكو استخدامي ما يناسب جبثون"
                         )
                         return
                 if private_only and not check.is_private:
@@ -187,7 +187,7 @@ class JmthonClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        link = "[هنا](https://t.me/AkTSupport)"
+                        link = "[هنا](t.me/gibthon9)"
                         text = "**تقرير خطأ سورس أكثون**\n\n" + "اذا اردت يمكنك التبليغ"
                         text += f"- فقط وجه هذه الرسالة الى {link}.\n"
                         text += "لم يتم تسجيل اي بيانات خاصه ومهمة\n\n"
@@ -302,7 +302,7 @@ class JmthonClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        link = "[هنا](https://t.me/AkTSupport)"
+                        link = "[هنا](t.me/gibthon9)"
                         text = "**تقرير خطأ أكثون**\n\n" + "يمكنك التبليغ عنه"
                         text += f"- حول هذه الرسالة الى هنا{link}.\n"
                         text += "لم يتم تسجيل اي بيانات خاصة فقط المشكلة\n\n"
