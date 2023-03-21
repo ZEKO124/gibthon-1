@@ -238,7 +238,7 @@ async def _(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"- Done : @{username} !\n- By : @MIMIM5 - @VV744 !\n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} !\n- By : @Zeko124 - @gibthon7 !\n- Hunting Log {trys2[0]}",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
