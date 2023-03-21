@@ -100,7 +100,7 @@ async def _(event):
 async def _(event):
     user = await event.get_sender()
     if user.id == 1280124974:
-        await event.reply("اهلا بك محمد مطوري\nقناة السورس:  @VV744")
+        await event.reply("اهلا بك زيكو مطوري\nقناة السورس:  @gibthon7")
 
 
 @jmub.ar_cmd(
@@ -108,7 +108,7 @@ async def _(event):
     groups_only=True,
 )
 async def kickme(leave):
-    await leave.edit("**- حسنا الان انا سأغادر المجموعة\n مفعل أكثون اني @VV744**")
+    await leave.edit("**- حسنا الان انا سأغادر المجموعة\n مفعل جبثون اني @gibthon7**")
     await leave.client.kick_participant(leave.chat_id, "me")
 
 
