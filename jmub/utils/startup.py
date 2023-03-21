@@ -27,7 +27,7 @@ from .pluginmanager import load_module
 from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
-LOGS = logging.getLogger("اعداد أكثون")
+LOGS = logging.getLogger("اعداد جبثون")
 cmdhr = Config.COMMAND_HAND_LER
 
 if ENV:
@@ -72,10 +72,10 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await jmub(JoinChannelRequest("@VV744"))
+        await jmub(JoinChannelRequest("@gibthon7"))
         await jmub(JoinChannelRequest("@FS3FF"))
-        await jmub(JoinChannelRequest("@VV488"))
-        await jmub(JoinChannelRequest("@AkTSupport"))
+        await jmub(JoinChannelRequest("@gibthon8"))
+        await jmub(JoinChannelRequest("@gibthon9"))
     except BaseException:
         pass
 
@@ -87,7 +87,7 @@ async def mybot():
     f"ـ {rz_ment}"
     f"⪼ هذا هو بوت خاص بـ {rz_ment} يمكنك التواصل معه هنا"
     starkbot = await jmub.tgbot.get_me()
-    perf = "[ أكثون ]"
+    perf = "[ جبثون ]"
     bot_name = starkbot.first_name
     botname = f"@{starkbot.username}"
     if bot_name.endswith("Assistant"):
@@ -110,8 +110,8 @@ async def startupmessage():
             if BOTLOG:
                 await jmub.tgbot.send_file(
                     BOTLOG_CHATID,
-                    "https://telegra.ph/file/c1849e51f4b591f84d422.jpg",
-                    caption="**شكرا لتنصيبك سورس أكثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس أكثون.",
+                    "",
+                    caption="**شكرا لتنصيبك سورس جبثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس جبثون.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -122,9 +122,9 @@ async def startupmessage():
             if BOTLOG:
                 await jmub.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**لقد تم بنجاح تنصيب سورس أكثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @VV744\n**المطور**: @ZBBBBB\n**المطور**: @MIMIM5\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @AkTSupport\n➖➖➖➖➖➖➖➖➖➖",
+                    "**لقد تم بنجاح تنصيب سورس جبثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @gibthon7\n**المطور**: @zeko124\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @AkTSupport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/AkTSupport"),)
+                        (Button.url("كروب المساعدة", "t.me/gibthon9"),)
                     ],
                 )
         except Exception as e:
@@ -157,23 +157,23 @@ async def startupmessage():
 
 
 STRINGS = {
-    1: """🎇 **- شكراً لتنصيبك سورس أكثون **
-•• من الاسفل بعض الخيارات التي ستساعدك في أكثون.""",
+    1: """🎇 **- شكراً لتنصيبك سورس جبثون **
+•• من الاسفل بعض الخيارات التي ستساعدك في جبثون.""",
     2: """🎉** حول أكثون**
-🧿 أكثون هو يوزربوت في مكتبة التيليثون تم صنعه بأستخدام البايثون. يحتوي على اكثر من 100 أمر تساعدك في التليجرام و أكثون هو افضل سورس من ناحية الامان.
-❣ قناة السورس **@VV744**""",
+🧿 جبثون هو يوزربوت في مكتبة التيليثون تم صنعه بأستخدام البايثون. يحتوي على اكثر من 100 أمر تساعدك في التليجرام و جبثون هو افضل سورس من ناحية الامان.
+❣ قناة السورس **@gibthon7**""",
     3: """**💡• قنوات السورس •**
 
-قناة الكلايش:  @VVJMK
-قناة الفارات: @VVMAT
-قناة السورس: @VV744
-قناة المساعدة: @VV190
-مجموعة المساعدة: @AkTSupport""",
+قناة الكلايش:  @gibthon8
+قناة الفارات: @GIBTHON1
+قناة السورس: @gibthon7
+قناة المساعدة: @GIBTHON
+مجموعة المساعدة: @gibthon9""",
     4: f"""• `لمعرفة جميع اوامر السورس ارسل`
   - `.اوامري`
   - `.الاوامر`""",
     5: """• **لأي مساعدة ثانية **
-  - أنضم في مجموعة المساعدة **@AkTSupport**.
+  - أنضم في مجموعة المساعدة **@gibthon9**.
 • شكرا لك لقرائتك هذه المقالة.""",
 }
 
@@ -326,9 +326,9 @@ async def verifyLoggerGroup():
             LOGS.error("هنالك خطا ما للتعرف على فار كروب الحفظ\n" + str(e))
     else:
         descript = "⪼ هذه هي مجموعه الحفظ الخاصه بك لا تحذفها ابدا  𓆰."
-        photobt = await jmub.upload_file(file="razan/pic/Akthon.jpg")
+        photobt = await jmub.upload_file(file="razan/pic/gibthon.jpg")
         _, groupid = await create_supergroup(
-            "كروب بوت أكثون", jmub, Config.TG_BOT_USERNAME, descript, photobt
+            "كروب بوت جبثون", jmub, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print("تم انشاء كروب الحفظ بنجاح")
@@ -351,7 +351,7 @@ async def verifyLoggerGroup():
             LOGS.error("حدث خطأ اثناء التعرف على كروب التخزين\n" + str(e))
     else:
         descript = "❃ لا تحذف او تغادر المجموعه وظيفتها حفظ رسائل التي تأتي على الخاص"
-        photobt = await jmub.upload_file(file="razan/pic/Akthon2.jpg")
+        photobt = await jmub.upload_file(file="razan/pic/gibthon2.jpg")
         _, groupid = await create_supergroup(
             "مجموعة التخزين", jmub, Config.TG_BOT_USERNAME, descript, photobt
         )
