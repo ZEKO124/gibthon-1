@@ -904,6 +904,6 @@ async def approve_p_m(event):
     await edit_or_reply(
         event,
         APPROVED_PMs,
-        file_name="قائمة الحماية أكثون.txt",
-        caption="قائمة المسموح لهم الحالية\n سورس أكثون العربي \n @VV744",
+        file_name="قائمة الحماية جبثون.txt",
+        caption="قائمة المسموح لهم الحالية\n سورس أكثون العربي \n @GIBTHON7",
     )  # ترجمه وكتابة فريق جمثون
