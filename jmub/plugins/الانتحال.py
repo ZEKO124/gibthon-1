@@ -74,3 +74,5 @@ async def revert(event):
             BOTLOG_CHATID,
             "#الاعادة\nتم بنجاح اعادة الحساب الى وضعه السابق",
         )
+
+المطور @zeko124
